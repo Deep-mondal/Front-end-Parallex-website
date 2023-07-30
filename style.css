@@ -1,0 +1,57 @@
+html,body{
+    height:100%;
+    margin:0;
+}
+.image1{
+    background-image: url(./image1.jpg);
+    min-height:400px;
+
+}
+.image2{
+    background-image: url(./image3.jpg);
+    min-height:400px;
+}
+.image3{
+    background-image: url(./image\ 4.jpg);
+    min-height:400px;
+    
+}
+.image1,
+.image2,
+.image3{
+    position:relative;
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+.para1,
+.para2,
+.para3{
+    text-align:justify;
+    font-size:20px;
+    padding: 20px 30px;
+    color:darkslategrey;
+    border:3px solid black;
+    margin:20px;
+    
+}
+.div{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    font-weight: bold;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.foot{
+    text-align: center;
+    text-transform: uppercase;
+    padding:20px;
+    background-color: darkslategrey;
+    color:white;
+    font-weight: bold;
+}
